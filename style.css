@@ -1,0 +1,173 @@
+/*  African elephant, lion, leopard, Cape buffalo, and rhinoceros.
+ */
+
+ *{
+     padding:0px;
+     margin: 0px;
+     box-sizing: border-box;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+/* head */
+ .hed{
+     display: flex;
+     background-color:peru;
+     margin-bottom:12px ;
+     border-bottom:2px solid green;
+ }
+
+
+
+.hed a{
+flex: 1;
+text-decoration:none;
+margin-left: 122px;
+color: #fff;
+font-size: 22px;
+margin: 22px;
+    
+}
+
+.hed h1{
+flex:2;
+margin:22px;
+color:green;
+}
+.img{
+    flex: 1;
+    margin-right: -433px;
+
+}
+.hed img{
+    border-radius: 62px;
+    padding:22px;
+   
+}
+/* the main hero */
+
+.showc{
+height: 50vh;
+
+}
+/* .aside{
+   
+    height: 40vh;
+    background: linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.9) ),url(li.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    
+    
+ }
+ .aside h2{
+     color: #fff;
+     text-align: right;
+     margin-top:223px ;
+ } */
+ .hero{
+    background: linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.9) ),url(big.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 50vh;
+ }
+
+
+ /* siders */
+ .showele{
+    background: linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.9) ),url(ele.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height:95vh
+
+ }
+
+
+ .showrhino{
+
+    background: linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.9) ),url(rino.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height:95vh
+
+}
+
+
+
+.showleopard{
+
+    background: linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.9) ),url(leopard.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height:95vh
+
+}
+
+
+.showbuff{
+
+    background: linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.9) ),url(buffulo.jpg);
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    height:95vh
+
+}
+
+
+.showlion{
+
+    background: linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.9) ),url(liowidth: 60vw;:center;
+    height:95vh
+
+}
+
+
+/* position */
+.slider p{
+color:#fff;
+font-size: 30px;
+word-spacing: 12px;
+position: relative;
+top:323px;
+
+}
+.slider h1{
+background:black;
+color:green;
+text-align: center;
+
+}
+h3{
+    background:#f1f1f1;
+    text-align: right;
+    color:#222;
+    letter-spacing: 10px;
+    padding:12px;
+    text-shadow: 1px 2px 1px  red;
+}
+.foot{
+    text-align: center;
+    background:#f1f1f1;
+    padding: 20px;
+   
+}
+.foo{
+    background:green;
+    padding: 12px;
+}
+
+/* last pics */
+/* .pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+
+
+.pics  img{
+    width: 325px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
