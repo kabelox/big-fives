@@ -2,15 +2,15 @@
 // sound works
 
 function playl(){
-//     let lion = new Audio('http://www.acc.umu.se/~leng/elsalejon.wav');
-// lion.play();
+    let lion = new Audio('http://www.acc.umu.se/~leng/elsalejon.wav');
+lion.play();
 }
 
 
 
 function playb(){
-//     let buff = new Audio('http://soundfxcenter.com/animals/farm-animals/8d82b5_Buffalo_Moo_Sound_Effect.mp3');
-// buff.play();
+    let buff = new Audio('http://soundfxcenter.com/animals/farm-animals/8d82b5_Buffalo_Moo_Sound_Effect.mp3');
+buff.play();
 
 
 
@@ -18,22 +18,22 @@ function playb(){
 
 
 function playlep(){
-//     let leo = new Audio('http://www.animal-sounds.org/jungle/Leopard%20growl%20animals089.wav');
-// leo.play();
+    let leo = new Audio('http://www.animal-sounds.org/jungle/Leopard%20growl%20animals089.wav');
+leo.play();
  
 }
 
 function playe(){
 
-// let ele = new Audio('http://www.elemotion.org/wp-content/uploads/2011/09/roar.mp3');
-// ele.play();
+let ele = new Audio('http://www.elemotion.org/wp-content/uploads/2011/09/roar.mp3');
+ele.play();
 
 }
 
 
 function playr(){
-//     let rhino = new Audio('http://www.zar.co.za/sounds/rhino.mp3');
-// rhino.play();
+    let rhino = new Audio('http://www.zar.co.za/sounds/rhino.mp3');
+rhino.play();
 
 }
 
@@ -43,7 +43,9 @@ function newr(){
     document.getElementById("ro").src="ry.jpg"
 
 
-    let rhino = new Audio('http://www.zar.co.za/sounds/rhino.mp3');
+
+    let rhino = new Audio();
+    source = 'hyena.mp3'
     rhino.play();
     
 }
@@ -51,9 +53,6 @@ function newr(){
 function oldr(){
     document.getElementById("ro").src="rino.jpg"
 }
-
-
-
 
 
 
@@ -121,6 +120,10 @@ function newe(){
 ele.play();
 
 }
+
+
+
+
 
 
 function olde(){
